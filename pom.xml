@@ -5,7 +5,7 @@
 	<groupId>com.test</groupId>
 	<artifactId>bootsample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>bootsample</name>
 	<url>http://maven.apache.org</url>
@@ -33,6 +33,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
+		
+		<!-- Thymeleaf 관련 추가 -->
+    <dependency>
+      <groupId>net.sourceforge.nekohtml</groupId>
+      <artifactId>nekohtml</artifactId>
+    </dependency>
+    
 	</dependencies>
 
 	<build>
